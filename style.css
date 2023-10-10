@@ -1,26 +1,43 @@
-.header-wrapper {
+.container {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
+    flex-flow: column;
+    justify-content: center;
     align-items: center;
-    gap: 10px;
-    width: 100%;
-    
-}
-
-.read-button {
-    display: flex;
-    justify-content: flex-end;
     width: 75%;
 }
 
+.header-wrapper {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    
+    
+}
+
+.btn-container {
+   margin-left: 200px;
+}
+
+.read-button {
+    border: none;
+    background-color: white;
+    color: #5E6778;
+}
 .frame {
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-start;
+    justify-content: start;
     align-items: center;
     gap: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 525px;
+}
 
+.bgcolor {
+    background-color: #E5EFFA;
 }
 
 img {
@@ -29,9 +46,29 @@ img {
 }
 
 .nums {
-    background-color: blue;
-    padding: 8px;
+    background-color: #0A327B;
     text-align: center;
+    
     color: white;
     font-weight: bold;
+    width: 32px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.circle {
+    background-color: orangered;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+.messagePic {
+    margin-left: 20px;
+}
+
+.message {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
 }
