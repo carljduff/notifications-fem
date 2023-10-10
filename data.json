@@ -39,7 +39,8 @@
             "notification": "commneted on your picture",
             "link": false,
             "message": false,
-            "read": false
+            "read": false,
+            "picMessage": "images/image-chess.webp"
         },
         {
             "name": "Nathan Peterson",
