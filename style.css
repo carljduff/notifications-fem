@@ -1,0 +1,37 @@
+.header-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    
+}
+
+.read-button {
+    display: flex;
+    justify-content: flex-end;
+    width: 75%;
+}
+
+.frame {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+
+}
+
+img {
+    height: 50px;
+    width: 50px;
+}
+
+.nums {
+    background-color: blue;
+    padding: 8px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
